@@ -10,13 +10,13 @@ export class SociaisComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  this.onWindowScroll();
   }
   @HostListener('window:scroll') onWindowScroll() {
+    console.log(window.scrollY)
     const inicialheader = document.getElementsByClassName('i-social')[0];
-    if (window.scrollY < 500) { 
+    if (window.scrollY < 300) { 
       inicialheader.classList.add('hidden')
-    
-      
     } else {
       inicialheader.classList.remove('hidden')
       
