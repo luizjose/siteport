@@ -1,17 +1,18 @@
 .home{
     width: 100%;
-    height: 70%;
+    height: 500px;
     background-color: #cccccc;
     display: flex;
+    background-image: url('../../../assets/dsd.png');
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
 }
-.home > img {
-    position: static;
+.home > .img {
+    position: sticky;
 }
 .text-container{
-    position: absolute;
+    
     display: flex;
     width: 800px;
     height: 350px;

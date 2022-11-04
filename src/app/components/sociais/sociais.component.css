@@ -1,0 +1,53 @@
+.container-social {
+    position: fixed;
+    
+    display: flex;
+    bottom: 25px;
+    
+    
+}
+.sociais {
+    width: 45px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #000;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    animation: anim 1s forwards;
+    
+}
+
+.sociais > i {
+    color: white;
+    font-size: 30px;
+}
+.hidden {
+    animation: anima 1s forwards;
+}
+
+@keyframes anim{
+    0%{
+        transform: translateX(-200%);
+       
+    }
+    100%{
+        transform: translateX(0%);
+        
+    }
+ }
+ 
+@keyframes anima{
+    0%{
+        transform: translateX(0%);
+        
+    }
+    100%{
+        transform: translateX(-200%);
+        
+    }
+ }
