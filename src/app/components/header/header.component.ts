@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
 
 @HostListener('window:scroll') onWindowScroll() {
   const inicialheader = document.getElementsByClassName('container-header')[0];
-  if (window.scrollY > 400) { 
+  if (window.scrollY > 205) { 
     inicialheader.classList.add('small')
     
   } else {

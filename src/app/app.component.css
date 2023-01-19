@@ -1,3 +1,10 @@
 app-header {
-    position: absolute;
+    position: fixed;
+    z-index: 9;
+}
+app-home {
+    display: flex;
+    float: initial;
+    flex-direction: column;
+    z-index: 1;
 }

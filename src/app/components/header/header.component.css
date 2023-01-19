@@ -3,11 +3,12 @@
     width: 100%;
     height: 50px;
     display: flex;
+    z-index: 9;
     flex-direction: row;
     background-color: rgba(5, 5, 5, 0.5);
     justify-content: space-around;
     align-items: center;
-    transition: all 335ms cubic-bezier(.95,.05,.795,.035);
+    transition: all 535ms cubic-bezier(.95,.05,.795,.035);
 }
 .logo-header {
     color: #fff;
@@ -25,7 +26,8 @@
 
  .small {
    background-color:  #000 !important;
-   
+   position: fixed;
+   z-index: 4;
 }
 .small > .logo-header {
     color: #fff;

@@ -2,29 +2,29 @@
     position: fixed;
     
     display: flex;
-    bottom: 25px;
+    bottom: 15px;
     
     
 }
 .sociais {
-    width: 45px;
-    height: 150px;
+    width: 40px;
+    height: 120px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     background-color: #000;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
-    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
     animation: anim 1s forwards;
     
 }
 
 .sociais > i {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 .hidden {
     animation: anima 1s forwards;

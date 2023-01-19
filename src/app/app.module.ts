@@ -7,6 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SociaisComponent } from './components/sociais/sociais.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SwiperModule } from "swiper/angular";
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { SobreComponent } from './pages/sobre/sobre.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
